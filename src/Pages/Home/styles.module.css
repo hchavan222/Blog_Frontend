@@ -1,0 +1,15 @@
+.list{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 10px;
+
+}
+
+.list div{
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.wrap{
+    padding: 30px;
+}
